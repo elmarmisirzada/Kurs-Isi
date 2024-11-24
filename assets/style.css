@@ -1,0 +1,855 @@
+/* Roboto Fonts */
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3,
+p,
+article,
+h2,
+h5,
+a{
+    font-family: sans-serif;
+}
+
+
+
+/* Header Start */
+.header {
+    background-color: #121214;
+}
+
+.header nav a {
+
+
+    color: #A6A8AD;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.header nav {
+    margin-left: 29px;
+}
+
+.header-right-side .first-button {
+    background-color: #121214;
+    color: #A6A8AD;
+    border: none;
+
+}
+
+.header-right-side .second-button {
+    background-color: #fff;
+    color: #000;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: none;
+    padding: 5px 15px;
+}
+
+/* Header Ends */
+
+
+
+/* Click-Here Start */
+.click-here {
+    background-color: #0033FF;
+}
+
+.click-here article {
+    color: #fff;
+}
+
+.click-here-part a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+/* Click-Here End */
+
+
+/* Introduction Start */
+.introduction {
+    background-image: url(./images/introduction/background/kurs\ isi\ img.jpeg);
+    width: 100%;
+}
+
+.introduction h2,
+article {
+    color: #fff;
+}
+
+.introduction h2 {
+    font-size: 72px;
+    margin-top: 100px;
+
+}
+
+.introduction .explore {
+    margin: 25px 0 30px 0;
+}
+
+.bluebuttons {
+    background-color: #0033FF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+
+
+.introduction .learn {
+    display: flex;
+    justify-content: center;
+    margin: 140px 0 17px 0;
+}
+
+.intro-left-side img {
+
+    display: block;
+    margin: auto;
+
+
+}
+
+/* Introduction End */
+
+/* Sounds Start */
+.sounds {
+    background-color: #121214;
+}
+
+.sounds-left-side {
+    margin-top: 123px;
+}
+
+.sounds-left-side p {
+    color: #A6A8AD;
+    margin-bottom: 5px;
+}
+
+.sounds-left-side h3,
+article {
+    color: #fff;
+
+}
+
+.sounds-left-side article {
+    margin: 10px 0 20px;
+}
+
+
+
+/* Sounds End */
+
+
+/* Workflow Start */
+.workflow {
+    background-color: #121214;
+
+}
+
+.workflow-right {
+    margin-top: 130px;
+    text-align: end;
+
+}
+
+.workflow-right p {
+    color: #A6A8AD;
+    margin-bottom: 0;
+}
+
+
+
+.workflow-right h3 {
+    color: #fff;
+
+    margin: 5px 0 10px 0;
+}
+
+/* Workflow End */
+
+/* Gear Start */
+.gear {
+    background-color: #121214;
+}
+
+.gear-left {
+    margin-top: 135px;
+}
+
+.gear-left p {
+    color: #A6A8AD;
+}
+
+.gear-left h3 {
+    color: #fff;
+}
+
+.gear-left button {
+    margin-top: 15px;
+}
+
+/* Gear End */
+
+
+/* Tech Start */
+.tech {
+    background-color: #121214;
+}
+
+.tech p {
+    color: #A6A8AD;
+
+}
+
+.tech h3 {
+    color: #fff;
+
+}
+
+.tech-right {
+    margin-top: 135px;
+    text-align: end;
+}
+
+.tech-right button {
+    margin-top: 15px;
+}
+
+/* Tech End */
+
+/* Mobile Menu Start */
+.menu {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+
+    justify-content: center;
+
+
+
+}
+
+.menu nav a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 25px;
+
+
+}
+
+.menu nav a:hover {
+    color: #007bff;
+}
+
+.fa-rectangle-xmark {
+    color: #000;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 40px;
+
+
+}
+
+.menu-buttonlar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.first-menu-button {
+    background-color: #0033FF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+
+.second-menu-button {
+    background-color: #121214;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+
+.menu.aktiv {
+    width: 100%;
+}
+
+
+
+
+/* Mobile Menu End */
+
+
+
+/* Cards Start */
+.persons-cards {
+    background-color: #121214;
+}
+
+.persons-cards .cardsSwiper img {
+    width: 223px;
+    height: 223px;
+    display: block;
+    margin: 0 auto;
+}
+
+.swiper-slide .card {
+    background-color: #F8F8F8;
+}
+
+.card {
+    width: 360px;
+    height: 500px;
+
+
+}
+
+.card-text {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.card-title {
+    color: #767676;
+    margin-top: 40px;
+}
+
+/* Cards End */
+
+/* Try Start */
+.try {
+
+    background-image: url(/assets/images/try/try.png); 
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    
+    
+    
+
+
+       
+    
+}
+
+.try h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 50px;
+    
+
+}
+
+
+
+
+
+
+/* Try End */
+
+/* Footer Start */
+.footer{
+    background-color: #121214;
+}
+.footer nav a{
+    color: #A6A8AD;
+    font-size: 12px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.footer h5{
+    color: #fff;
+}
+
+.first-link{
+    margin-top: 12px;
+}
+
+.studio{
+    margin-top: 24px;
+}
+
+
+
+.footer-down p {
+    color: #A6A8AD;
+
+}
+
+.footer-down{
+    display: flex;
+      
+}
+
+.footer nav a:hover{
+    color: #fff;
+}
+
+.footer-up nav a {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* Footer End */
+
+/* Accordion Start */
+.accordion{
+    background-color: #121214;
+}
+
+.faq h5{
+    color: #FFA500;
+
+}
+.faq p{
+    color: #fff;
+}
+/* Accordion End */
+
+
+
+/* Media Kodlari Tablet*/
+@media (min-width: 768px) {
+
+    /* Mobile Menu */
+    .menu {
+        display: none;
+    }
+
+    /* Header Start */
+    .header-left-side nav {
+        display: flex;
+
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .header-left-side nav a {
+        font-size: 15px;
+    }
+
+    /* Header End */
+
+    /* Intro Start */
+
+    .intro-left-side article {
+        font-size: 23px;
+    }
+
+    /* Intro End */
+
+    /* Sound Start */
+    .sounds-left-side {
+        margin: auto;
+
+    }
+
+    .sounds-left-side h3 {
+        font-size: 20px;
+    }
+
+    .sounds-left-side article {
+        font-size: 15px;
+    }
+
+
+    /* Sound End */
+    /* Workflow Start */
+
+    .workflow-right {
+        margin: auto;
+    }
+
+    .workflow-right h3 {
+        font-size: 20px;
+    }
+
+    .workflow-right article {
+        font-size: 10px;
+    }
+
+    /* Workflow End */
+
+    /* Gear Start */
+    .gear-left {
+        margin: auto;
+    }
+
+    .gear-left article {
+        font-size: 13px;
+    }
+
+    .gear-left p {
+        margin-bottom: 5px;
+    }
+
+    /* Gear End */
+
+    /* Tech Start */
+
+    .tech-right {
+        margin: auto;
+    }
+
+    .tech-right article {
+        font-size: 12px;
+    }
+
+    .tech-right p {
+        margin-bottom: 5px;
+    }
+
+    /* Tech End */
+
+    /* Nav Bar */
+    .fa-bars-staggered {
+        display: none;
+    }
+
+    /* Card Start */
+
+    .card {
+        display: block;
+        margin: auto;
+
+    }
+
+    /* Card End */
+
+    /* Try Start */
+    .try{
+        background-size: 900px 1000px;
+    }
+    /* Try End */
+
+    /* Footer Start */
+    .footer-up{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .plugins, .beatmaker, .blog{
+        padding-top: 20px;
+    }
+
+    .footer-down p{
+        margin-left: 0px
+        
+        
+    }
+
+    .footer-down nav  {
+       display: flex;
+       flex-direction: column;
+    }
+
+    
+
+    .footer-down img{
+        display: block;
+        margin-left: 0;
+        padding-bottom: 45px;
+    }
+
+    /* Footer End */
+
+    /* accardion start */
+    .faq p{
+        font-size: 25px;
+      }
+    /* accardion end */
+    
+
+}
+
+/* Media Kodlari Telefon */
+@media (min-width: 320px) and (max-width:767px) {
+
+    /* Nav Bar */
+    .fa-bars-staggered {
+        color: #fff;
+        margin-left: auto;
+        margin-right: 8px;
+        font-size: 22px;
+
+    }
+
+    .header-left-side {
+        display: flex;
+        align-items: center;
+
+    }
+
+    /* Header Start */
+
+    .header{
+        padding: 8px;
+    }
+    
+    .header-left-side nav,
+    .first-button,
+    .second-button {
+        display: none;
+    }
+
+    .header-left-side img {
+        width: 125px;
+        padding-left: 10px;
+    }
+
+    /* Header End */
+
+    /* Click Here */
+
+    .click-here {
+        padding-top: 10px;
+    }
+
+    .click-here-part article {
+        font-size: 15px;
+    }
+
+    .click-here-part a {
+        font-size: 20px;
+    }
+
+    /* Click End */
+
+    /* Intro Start */
+    .intro-left-side h2 {
+        font-size: 50px;
+    }
+
+    .intro-left-side article {
+        font-size: 14px
+    }
+
+    /* Intro End */
+
+    /* Sounds Start */
+    .sounds-left-side {
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .sounds-left-side p {
+        padding-top: 30px;
+
+    }
+
+    .sounds-left-side article{
+        font-size: 13px;
+    }
+
+    /* Sounds End */
+
+    /* Workflow Start */
+    .workflow-left img {
+        padding-top: 20px;
+    }
+
+    .workflow-right {
+        margin: auto;
+        text-align: center;
+    }
+
+    .workflow-right p {
+        padding-top: 30px;
+    }
+
+    .workflow-right article {
+        font-size: 11px;
+    }
+
+    /* Workflow End */
+
+    /* Gear Start */
+    .gear-left {
+        margin: auto;
+        text-align: center;
+    }
+
+    .gear-left p {
+        padding-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .gear-left article {
+        font-size: 11px;
+
+    }
+
+    .gear-right img {
+        padding-top: 17px;
+    }
+
+    /* Gear End */
+
+    /* Tech Start */
+    .tech-right {
+        margin: auto;
+        text-align: center;
+    }
+
+    .tech-left img {
+        padding-top: 30px;
+    }
+
+    .tech-right p {
+        margin-bottom: 5px;
+    }
+
+    .tech-right article {
+        font-size: 10px;
+    }
+
+    /* Tech End */
+
+    /* Card Start */
+
+
+    .card {
+        width: 85%;
+        height: 75%;
+        display: block;
+        margin: auto;
+    }
+
+    .card-text{
+        font-size: 15px;
+    }
+
+
+
+
+    /* Card End */
+
+    /* Try Start */
+    .try{
+        background-size: 890px 900px;
+    }
+    .try h2{
+        font-size: 35px;
+    }
+    /* Try End */
+
+    /* Footer Start */
+    .footer-up{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+    .footer-down nav a,p{
+        margin-left: 0px
+        
+        
+    }
+
+    .footer-down nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-down img{
+        display: block;
+        margin-left: 0;
+        padding-bottom: 45px;
+    }
+
+    .alt-alta {
+
+        padding-top: 50px;
+    }
+
+    .studio{
+        margin-top: 7px;
+    }
+
+    .second-down p{
+        margin-top: 20px
+
+    }
+
+    /* Footer End */
+
+    /* accardion start */
+    .faq p{
+        font-size: 20px;
+      }
+    /* accardion end */
+}
+
+@media (min-width: 1024px) {
+    article {
+        font-size: 16px !important;
+    }
+
+    .try{
+        background-size: auto;
+    }
+
+    .plugins, .beatmaker, .blog{
+        padding-top: 0;
+    }
+
+    .footer-down nav a{
+        margin-left: 50px;
+        
+    }
+    
+    .footer-down img{
+        display: block;
+        margin-left: 50px;
+        margin-bottom: 5x;
+    }
+
+    .footer-down nav  {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0;
+          
+          
+      }
+      .footer-down img{
+          padding-bottom: 13px;
+      }
+
+      
+    
+}
