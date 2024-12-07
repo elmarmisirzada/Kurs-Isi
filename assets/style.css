@@ -552,6 +552,11 @@ article {
     /* Try Start */
     .try{
         background-size: 900px 1000px;
+        background-attachment: fixed;
+
+         /* background-size: contain 1000px; */
+         background-repeat: no-repeat; 
+        
     }
     /* Try End */
 
